@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(248, 26, 26);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.borda {
+    padding: 20px 50px;
+    border-radius: 20px ;
+    text-align: center;
+    background-color: rgb(222, 47, 47);
+
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.iniciar {
+    background-color: rgb(28, 103, 242);
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.iniciar:hover {
+    background-color: rgb(80, 136, 240);
+    transition: 0.5s ease;
+}
+
+.pause {
+    background-color: rgb(3, 235, 30);
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.pause:hover {
+    background-color: rgb(75, 230, 93);
+    transition: 0.5s ease-in;
+}
+
+.reiniciar {
+    background-color: rgb(235, 3, 3);
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.reiniciar:hover {
+    background-color: rgb(217, 80, 80);
+    transition: 0.5s ease;
+}
+
+/*mobile*/
+
+@media (max-width: 480px) {
+    
+.borda {
+    padding: 20px 50px;
+    border-radius: 20px ;
+    text-align: center;
+    background-color: rgb(222, 47, 47);
+    width: 100%;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.iniciar {
+    background-color: rgb(28, 103, 242);
+    color: white;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 0 5px;
+}
+
+.iniciar:hover {
+    background-color: rgb(80, 136, 240);
+    transition: 0.5s ease;
+}
+
+.pause {
+    background-color: rgb(3, 235, 30);
+    color: white;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 0 5px;
+}
+
+.pause:hover {
+    background-color: rgb(75, 230, 93);
+    transition: 0.5s ease-in;
+}
+
+.reiniciar {
+    background-color: rgb(235, 3, 3);
+    color: white;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 0 5px;
+}
+
+.reiniciar:hover {
+    background-color: rgb(217, 80, 80);
+    transition: 0.5s ease;
+}
+}
+
